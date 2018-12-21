@@ -68,7 +68,7 @@ if [ -f /etc/nv_tegra_release ]; then
     # https://developer.nvidia.com/embedded/jetpack-archive
     if [ "$JETSON_BOARD" = "XAVIER" ] ; then
 	case $JETSON_L4T in
-            "31.0.0") 
+            "31.1.0") 
                JETSON_JETPACK="DP 4.0" ;;
             *)
                JETSON_JETPACK="UNKNOWN" ;;
