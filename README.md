@@ -1,5 +1,6 @@
 # buildJetsonTX2Kernel
 Scripts to help build the 4.4.38 kernel and modules onboard the Jetson TX2 (L4T 28.2.1, JetPack 3.2.1). For previous versions, visit the 'tags' section.
+Add support for Jetson Xavier L4T 31.1.0
 
 <em><strong>Note:</strong> The kernel source version must match the version of firmware flashed on the Jetson. For example, the source for the 4.4.38 kernel here is matched with L4T 28.2.1. This kernel compiled using this source tree will not work with newer versions or older versions of L4T, only 28.2.1.</em>
 
@@ -38,6 +39,10 @@ Special thanks to Raffaello Bonghi (https://github.com/rbonghi) for jetson_easy 
 Special thanks to Shreeyak (https://github.com/Shreeyak) for discussing alternatives to get source directly from NVIDIA git repositories.
 
 ### Release Notes
+December, 2018
+* vL4T31.1.0
+* L4T 31.1.0 (JetPack 4.1.1)
+
 July, 2018
 * vL4T28.2.1
 * L4T 28.2.1 (JetPack 3.2.1)
